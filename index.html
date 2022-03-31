@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <title>Projekt1 TI Jakub Kraśniak</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+        <header>
+            <h1 style = "font-size: 50px;">Fotoradarowy pomiar prędkości</h1>
+        </header>
+    
+        <nav>
+            <input type = "button" class = "przycisk" id = "lokalbutton" value = "Wprowadź dane do lokalnej bazy" onclick="localDB()">
+            <input type = 'button' class = 'przycisk' id = 'loginButton' value = 'Logowanie / Rejestracja' onclick="location.href='./menu.php'">
+        </nav>
+    
+        <article>
+            <form id = "offlineDBform" class = "content" style = "display : inline-block;">
+              
+            </form>
+
+        </article>
+    
+        <footer>
+            Techniki Internetowe - Projekt "System rejestracji danych
+            z wykorzystaniem trybu off-line przegl�darki" Jakub Kra�niak 2022
+        </footer>
+
+	<script src="lokal.js"></script>
+  </body>
+</html>

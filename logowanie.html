@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <title>Projekt1 TI Jakub Kraśniak</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+        <header>
+            <h1 style = "font-size: 50px;">Fotoradarowy pomiar prędkości</h1>
+        </header>
+    
+        <nav>
+            <input type = 'button' class = 'przycisk' id = 'backButton' value = 'Powrot do strony glownej' onclick="location.href='./index.html'">
+        </nav>
+    
+        <article>
+          
+            <br> <h2 style = "font-size: 40px;"> Logowanie </h2> 
+        
+            <form id = "loginForm" name="loginForm" class = "content" style = "display : inline-block;" method="post" action="logowanie.php ">
+              
+              <h2><label for="email">Podaj email:</label></h2>
+              <input type="text" id="email" name="email" required><br>
+              <h2><label for="pass">Podaj haslo:</label></h2>
+              <input type="text" id="pass" name="pass" required><br><br>
+              
+              <input type="submit" value = "Zaloguj sie">
+              
+            </form>
+
+        </article>
+    
+        <footer>
+            Techniki Internetowe - Projekt "System rejestracji danych
+            z wykorzystaniem trybu off-line przegladarki" Jakub Krasniak 2022"
+        </footer>
+
+	<script src="index.js"></script>
+  </body>
+</html>

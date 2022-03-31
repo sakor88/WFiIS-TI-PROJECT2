@@ -1,0 +1,135 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100%;
+    height: 100%;
+}
+
+header{
+    min-height: 75px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #5146b4;
+}
+
+h1{
+    display: inline-block;
+    color:black;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(195, 0, 255);
+}
+
+nav{
+    min-height: 75px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #6f67b6;
+    box-shadow: 
+    0 0 1px rgb(0, 0, 0),
+    0 0 2px rgb(0, 0, 0),
+    0 0 4px rgb(0, 0, 0),
+    0 0 10px rgb(0, 0, 0);
+}
+
+.przycisk{
+	box-shadow:inset 0px 0px 0px 0px #c1fcf4;
+	background:linear-gradient(to bottom, #6b12df 5%, #5a137a 100%);
+	background-color:#a32ae9;
+	border-radius:20px;
+	border:1px solid #4faeee;
+	display: inline-block;
+	cursor:pointer;
+	color:rgb(255, 255, 255);
+    text-shadow:
+    0 0 6px rgb(139, 84, 130);
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 30px;
+	text-decoration:none;
+    margin:20px;
+}
+
+.przycisk:hover {
+	background:linear-gradient(to bottom, #422dbb 5%, #7e27cf 100%);
+	background-color:#7427d8;
+}
+.przycisk:active {
+	position:relative;
+	top:1px;
+}
+
+article{
+    height: 100%;
+    min-height: 900px;
+    background-color: #5146b4;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    box-shadow: 
+    0 0 1px rgb(0, 0, 0),
+    0 0 2px rgb(0, 0, 0),
+    0 0 4px rgb(0, 0, 0),
+    0 0 10px rgb(0, 0, 0);
+}
+
+footer{
+    min-height: 50px;
+    height:50px;
+    width:100%;
+    background-color: #5146b4;
+    color:white;
+	display: inline-block;
+    box-shadow: 
+    0 0 1px rgb(0, 0, 0),
+    0 0 2px rgb(0, 0, 0),
+    0 0 4px rgb(0, 0, 0),
+    0 0 10px rgb(0, 0, 0);
+}
+
+.content{
+    min-height: 500px;
+    height: 500px;
+    min-width: 500px;
+    width:500px;
+    background-color: #6f67b6;
+    margin:50px;
+    display:none;
+    max-width: 60%;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    box-shadow: 
+    0 0 1px rgb(0, 0, 0),
+    0 0 2px rgb(0, 0, 0),
+    0 0 4px rgb(0, 0, 0),
+    0 0 10px rgb(0, 0, 0);
+}
+
+
+h2{
+    text-shadow:
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px rgb(100, 84, 196);
+}
+
+
+#vis{
+    min-height: 850px;
+    height: 850px;
+    min-width: 600px;
+}
+
+#wynikDiv{
+    color:rgb(0, 0, 0);
+    text-shadow:
+    0 0 1px #fff,
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px rgb(91, 69, 190);
+}
